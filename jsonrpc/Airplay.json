@@ -1,0 +1,27 @@
+{
+    "$schema": "interface.schema.json",
+    "jsonrpc": "2.0",
+    "info": {
+      "title": "Airplay API",
+      "class": "Airplay",
+      "description": "Airplay JSON-RPC interface"
+    },
+    "properties": {
+      "Airplay": {
+        "summary": "Airplay specific information",
+        "readonly": true,
+        "params": {
+          "type": "object",
+          "properties": {
+            "aFieldToReturnDataIn": {
+              "description": "This is a field to return data in",
+              "example": "config",
+              "type": "string"
+            }
+          },
+          "required": ["aFieldToReturnDataIn"]
+        }
+      }
+    }
+   }
+   
