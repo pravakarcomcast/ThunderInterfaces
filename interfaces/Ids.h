@@ -321,8 +321,8 @@ namespace Exchange {
         ID_RUST_BRIDGE                             = 0x000004B0,
         ID_RUST_BRIDGE_NOTIFICATION                = ID_RUST_BRIDGE + 1
 
-        ID_AIRPLAY,
-        ID_AIRPLAY_NOTIFICATION,
+        ID_AIRPLAY                                 = 0x000004C0,
+        ID_AIRPLAY_NOTIFICATION                    = ID_AIRPLAY +1
 
     };
 }
